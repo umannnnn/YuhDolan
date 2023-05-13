@@ -26,6 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:layout_marginTop="20dp"
         android:padding="20dp">
 
@@ -35,11 +36,47 @@
             android:text="Username"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="23dp">
+            android:textSize="20dp">
         </TextView>
 
-    </LinearLayout>
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/outline">
+        </EditText>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/outline">
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:text="Login"
+            android:textSize="18dp"
+            android:backgroundTint="@color/orange"
+            app:cornerRadius = "10dp">
+
+        </Button>
+
+    </LinearLayout>
 
 
 </LinearLayout>
