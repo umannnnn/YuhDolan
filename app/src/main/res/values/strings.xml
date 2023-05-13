@@ -3,4 +3,6 @@
 
     <string name="title_activity_main">YuhDolan</string>
     <string name="main_desc">Pilihan popular untuk mengisi pengalaman wisatamu. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment"
+    android:orientation="vertical">
+
+    <!-- hero -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="2dp"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_hero">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:fontFamily="@font/pfdreg"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_desc"
+            android:textColor="@color/white"
+            android:layout_marginTop="70dp"
+            android:textSize="16dp"
+            android:textStyle="normal">
+
+        </TextView>
+    </FrameLayout>
+
+    <!-- content -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitesmoke">
+
+    </FrameLayout>
+
+</LinearLayout>
