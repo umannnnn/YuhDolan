@@ -9,16 +9,16 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
         android:layout_marginBottom="2dp"
         android:padding="48dp"
         android:background="@drawable/rectangle_hero">
 
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:layout_gravity="center"
-            android:src="@drawable/YUH">
+            android:src="@drawable/yuh">
         </ImageView>
 
     </FrameLayout>
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:padding="20dp">
 
         <TextView
