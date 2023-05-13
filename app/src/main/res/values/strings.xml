@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">YuhDolan</string>
+
+    <string name="title_activity_main">YuhDolan</string>
+    <string name="main_desc">Pilihan popular untuk mengisi pengalaman wisatamu. </string>
 </resources>

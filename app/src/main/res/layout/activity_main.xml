@@ -8,11 +8,20 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/navbar_frame"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="2dp"
-        android:padding="48dp"
-        android:background="@drawable/rectangle_hero">
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/black"
+            app:itemRippleColor="@color/white"
+            app:itemIconTint="@color/icon_colors"
+            app:menu="@menu/navbar_menu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     </FrameLayout>
 
